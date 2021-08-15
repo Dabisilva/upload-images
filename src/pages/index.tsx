@@ -57,7 +57,7 @@ export default function Home(): JSX.Element {
             {isFetchingNextPage ? (
               <Text color="pGray.50">Carregando...</Text>
             ) : (
-              <Text>Carregar mais</Text>
+              <Text color="pGray.50">Carregar mais</Text>
             )}
           </Button>
         )}
